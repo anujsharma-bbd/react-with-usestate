@@ -9,7 +9,7 @@ function Header(){
     new Promise((resolve,reject)=>{
       setTimeout(()=>{
         resolve('my new name');
-      },10000);
+      },10000); 
     }).then(response=>{
       setName(response);
     })
